@@ -259,7 +259,7 @@ public class VariableLengthIntegerRepresentation
 
 	/**
 	 * 符号付き可変長整数 を BigInteger として解釈して返す
-	 * @param ba	データバイト配列
+	 * @param bai	データバイト配列
 	 * @param pos	可変長整数表現開始位置
 	 * @return	BigInteger
 	 * @throws	IndexOutOfBoundsException	データバイト配列が可変長整数表現ではない場合
@@ -518,7 +518,7 @@ public class VariableLengthIntegerRepresentation
 
 	/**
 	 * 符号なし可変長整数 を BigInteger として解釈して返す
-	 * @param ba	データバイト配列
+	 * @param bai	データバイト配列
 	 * @param pos	可変長整数表現開始位置
 	 * @return	BigInteger
 	 * @throws	IndexOutOfBoundsException	データバイト配列が可変長整数表現ではない場合
@@ -732,7 +732,7 @@ public class VariableLengthIntegerRepresentation
 
 	/**
 	 * 符号付き0近傍最適化可変長整数 を BigInteger として解釈して返す。
-	 * @param ba	データバイト配列
+	 * @param bai	データバイト配列
 	 * @param pos	可変長整数表現開始位置
 	 * @return	BigInteger
 	 * @throws	IndexOutOfBoundsException	データバイト配列が可変長整数表現ではない場合
@@ -799,3 +799,4 @@ public class VariableLengthIntegerRepresentation
 		return	(b & 0x40) == 0x00;
 	}
 }
+

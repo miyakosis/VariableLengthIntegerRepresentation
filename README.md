@@ -24,6 +24,10 @@ Variable-length integer representation は以下の3通りの表現方式を用�
 
 符号なし0近傍最適化可変長整数 についても検討しましたが、符号なし可変長整数 より狭い範囲しか表現できないことが多く、有用性がほぼ無いと考え実装しません。  
 
+### Usage
+    byte[] ba = VariableLengthIntegerRepresentation.toSignedRepresentaion(100);
+    int n = VariableLengthIntegerRepresentation.signedRepresentaionToInt(ba, 0);
+
 
 ## 数値表現の詳細  
 ### 符号なし可変長整数  

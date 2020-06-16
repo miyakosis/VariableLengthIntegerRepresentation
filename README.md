@@ -28,6 +28,9 @@ Variable-length integer representation は以下の3通りの表現方式を用�
     byte[] ba = VariableLengthIntegerRepresentation.toSignedRepresentaion(100);
     int n = VariableLengthIntegerRepresentation.signedRepresentaionToInt(ba, 0);
 
+### javadoc link
+[VariableLengthIntegerRepresentation](http://htmlpreview.github.io/?https://github.com/miyakosis/VariableLengthIntegerRepresentation/blob/master/javadoc%20-%20VariableLengthIntegerRepresentation.html)
+
 
 ## 数値表現の詳細  
 ### 符号なし可変長整数  

@@ -190,7 +190,7 @@ public class VariableLengthIntegerRepresentation
 	}
 
 	/**
-	 * 符号付き可変長整数 の最大下位 32bit を int として解釈して返す
+	 * 符号付き可変長整数 の下位 32bit を int として解釈して返す
 	 * @param ba	データバイト配列
 	 * @param pos	可変長整数表現開始位置
 	 * @return	int
@@ -223,7 +223,7 @@ public class VariableLengthIntegerRepresentation
 	}
 
 	/**
-	 * 符号付き可変長整数 の最大下位 64bit を long として解釈して返す
+	 * 符号付き可変長整数 の下位 64bit を long として解釈して返す
 	 * @param ba	データバイト配列
 	 * @param pos	可変長整数表現開始位置
 	 * @return	long
@@ -455,7 +455,7 @@ public class VariableLengthIntegerRepresentation
 	}
 
 	/**
-	 * 符号なし可変長整数 の最大下位 31bit を int として解釈して返す
+	 * 符号なし可変長整数 の下位 31bit を int として解釈して返す
 	 * @param ba	データバイト配列
 	 * @param pos	可変長整数表現開始位置
 	 * @return	int
@@ -487,7 +487,7 @@ public class VariableLengthIntegerRepresentation
 	}
 
 	/**
-	 * 符号なし可変長整数 の最大下位 63bit を int として解釈して返す
+	 * 符号なし可変長整数 の下位 63bit を int として解釈して返す
 	 * @param ba	データバイト配列
 	 * @param pos	可変長整数表現開始位置
 	 * @return	int
